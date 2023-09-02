@@ -14,4 +14,13 @@ h1{
 	height: 43px;
 }
 
-
+button{
+	margin-top: 8%;
+	margin-left: 24%;
+	width: 130px;
+	height: 45px;
+	background-color: #F200F6;
+	border-radius: 10px;
+	text-shadow: 1px black;
+	font-family: Georgia, serif;
+}

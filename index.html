@@ -37,6 +37,23 @@
 		<button onclick="reset()">Jogar Novamente</button>
 
 	</div>
-
+	<script>
+		const player1 = "X";
+		const player2 = "O";
+		var playTime = player1;
+		var gameOver = false;
+		var images = new Array();
+		
+		var sequence = [];
+		var actualRound = 0;
+		var seqPos = 0;
+		var gameOver = false;
+		
+		
+		
+		preloadImages("images/x.png","images/o.png")			
+		atualizaMostrador();
+		inicializarEspacos();
+		</script>
 </body>
 </html>

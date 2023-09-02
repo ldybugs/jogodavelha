@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Jogo da Velha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Jogo da Velha">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-256.png">
+    <link rel="apple-touch-icon" href="images/icon-256.png">
+    <link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+<h1><center>✦ Jogo da Velha ✦</center></h1>
+
+	<div id="mostrador">
+		<p style="float: left; margin-right: 10px;">Vez do:</p>
+		<img alt="jogador" src="" class="img" border="0" height="50">
+	</div>
+
+	<div class="tabuleiro">
+		<div id="a1" class="espaco" jogada=""></div>
+		<div id="a2" class="espaco" jogada=""></div>
+		<div id="a3" class="espaco" jogada=""></div>
+
+		<div id="b1" class="espaco" jogada=""></div>
+		<div id="b2" class="espaco" jogada=""></div>
+		<div id="b3" class="espaco" jogada=""></div>
+		
+		<div id="c1" class="espaco" jogada=""></div>
+		<div id="c2" class="espaco" jogada=""></div>
+		<div id="c3" class="espaco" jogada=""></div>
+
+		<button onclick="reset()">Jogar Novamente</button>
+
+	</div>
+
+</body>
+</html>

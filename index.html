@@ -38,6 +38,13 @@
 
 	</div>
 	<script>
+		window.onload = () => {
+    'use strict';
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+    }
+}
+
 		const player1 = "X";
 		const player2 = "O";
 		var playTime = player1;
